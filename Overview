@@ -1,0 +1,11 @@
+# Programming Assignment_1  ==>  Preparing to Model
+
+This assignment focuses on exploring and understanding a vehicle fuel dataset using Python. It uses Pandas for data analysis and Matplotlib and Seaborn for visualization.
+
+The completed parts cover:
+- Calculating the mean and median of numerical attributes.
+- Checking missing values and data quality.
+- Using box plots to identify potential outliers and understand data distributions.
+- Interpreting statistical results and visualizations.
+
+The goal is to understand the dataset and prepare it for further machine learning analysis.
