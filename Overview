@@ -1,11 +1,29 @@
-# Programming Assignment_1  ==>  Preparing to Model
+# 📊 Programming Assignment 1: Preparing to Model
 
-This assignment focuses on exploring and understanding a vehicle fuel dataset using Python. It uses Pandas for data analysis and Matplotlib and Seaborn for visualization.
+This assignment focuses on exploring and understanding a vehicle fuel dataset (320 cars, 9 attributes) using Python. 
+It uses **Pandas** for data analysis and **Matplotlib** and **Seaborn** for visualization.
 
-The completed parts cover:
+The goal is to understand the dataset and prepare it for further machine learning analysis.
+
+## ✅ What's Covered
 - Calculating the mean and median of numerical attributes.
 - Checking missing values and data quality.
 - Using box plots to identify potential outliers and understand data distributions.
+- Using scatter plots and cross-tabulation to understand relationships between attributes.
 - Interpreting statistical results and visualizations.
 
-The goal is to understand the dataset and prepare it for further machine learning analysis.
+## 🔍 Key Findings
+- **Data quality:** only 7 `horsepower` values were missing, and they were left untouched.
+- **Mean vs. median:** helped flag columns that need a closer look.
+- **Outliers:** a few unusual values (like the Corvette's acceleration) turned out to be real, not mistakes.
+- **Relationships:** heavier cars with bigger engines use more fuel, and `weight` is the best single column to predict fuel efficiency.
+- **Cylinders by region:** most big engines (89%) are North American.
+
+## 🛠️ Tools
+Python, Pandas, NumPy, Matplotlib, Seaborn
+
+## ▶️ Run it
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+jupyter notebook
+```
